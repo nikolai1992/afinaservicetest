@@ -1,0 +1,100 @@
+.slider_container {
+    width: 100%!important;
+}
+.main-text-div label {
+    color: white;
+    font-size: medium;
+    font-family: 'Playfair Display', serif;
+}
+.main-text-div {
+    position: absolute!important;
+    margin-top: 13%;
+    /*margin-left: 19%;*/
+}
+.main-text-div h1 {
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+
+.convert-input {
+    height: 48px;
+    background-color: transparent!important;
+    color: white!important;
+    border-radius: 20px!important;
+    margin-top: 20px!important;
+    margin-bottom: 20px!important;
+    text-align: center!important;
+    font-size: 28px!important;
+}
+
+.convert-input:focus, .convert-input:active {
+    border-color: #7a7a7a!important;
+    color: white!important;
+    box-shadow: 0 0 0 .2rem rgb(131 134 137 / 25%)!important;
+    background-color: transparent!important;
+}
+
+.convert-btn {
+    height: 48px!important;
+    border-radius: 20px!important;
+    background-color: #80808052!important;
+    color: #c8c5c5!important;
+    border: 1px solid!important;
+    font-size: large!important;
+    font-weight: 700!important;
+}
+
+.convert-btn:hover {
+    background-color: rgba(45, 45, 45, 0.32)!important;
+    border-color: #7a7a7a!important;
+    color: white!important;
+    box-shadow: 0 0 0 .2rem rgb(131 134 137 / 25%)!important;
+}
+#content-wrap {
+    padding: unset!important;
+}
+.content-area {
+    width: 100%;
+    padding-right: unset;
+}
+.result-div {
+    height: 100vh;
+    color: grey;
+    display: none;
+}
+.result-div .result-label {
+    margin-top: 15%;
+    font-size: 40px;
+}
+.result-div .result-label {
+    font-size: 40px;
+}
+.result-div #result {
+    font-size: 60px;
+    font-weight: bold;
+}
+#top-bar {
+    padding: unset;
+}
+@media (max-width: 782px) {
+    .main-text-div {
+        margin-top: 6%;
+    }
+    .convert-input {
+        height: 20px!important;
+        min-height: unset!important;
+        font-size: 9px!important;
+    }
+    .main-text-div label {
+        font-size: 9px!important;
+    }
+    .convert-btn {
+        height: 20px !important;
+        font-size: 13px!important;
+        font-weight: 300!important;
+        padding: 5px!important;
+    }
+    .br {
+        display: none;
+    }
+}
